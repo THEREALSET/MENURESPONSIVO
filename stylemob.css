@@ -1,3 +1,69 @@
 html, body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    background-color: rgb(148, 148, 148);
+}
+
+a {
+    background-color: rgb(87, 87, 87);
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border-top: gray solid 2px;
+}
+
+a:hover {
+    background-color: gray;
+}
+
+main {
+    width: 90vw;
+    background-color: rgb(233, 233, 233);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+
+#burger {
+    display: block;
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burger:hover {
+    background-color: white;
+    color: black;
+}
+
+#men {
+    display: none;
 }

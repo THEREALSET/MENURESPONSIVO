@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link href ="https://fonts.googleapis.com/icon?family=Material+Icons" rel ="stylesheet">
     <link rel="stylesheet" href="stylemob.css" media="screen and (max-width: 768px)">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <nav>
+        <i id ="burger" class ="material-icons" onclick="menu()">menu</i>
+        <menu id ="men">
             <a href="#">opção 1</a>
             <a href="#">opção 2</a>
             <a href="#">opção 3</a>
             <a href="#">opção 4</a>
             <a href="#">opção 5</a>
-        </nav>
+        </menu>
     </header>
     <main>
         <h2>Testando Media Queries</h2>
@@ -37,5 +39,6 @@
         repudiandae vitae eligendi laborum ab recusandae natus! Aliquam, perspiciatis temporibus
         consequuntur est velit ab nostrum, at numquam voluptatem porro ipsum quia.</p><br>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
