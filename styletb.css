@@ -1,0 +1,32 @@
+/*config para tablets*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    background-color: rgb(87, 87, 87);
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    border-top: gray solid 2px;
+}
+
+a:hover {
+    background-color: gray;
+}
+
+#burger {
+    display: none;
+}
+
+#men {
+    display: block;
+}
+
+main {
+    width: 768px;
+}
